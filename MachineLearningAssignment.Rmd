@@ -26,7 +26,7 @@ The data for this project come from this source: http://groupware.les.inf.puc-ri
 
 ```{r}
 #Load the libraries
-library(caret)
+suppressMessages(library(caret))
 library(rpart)
 library(RColorBrewer)
 library(RGtk2)
